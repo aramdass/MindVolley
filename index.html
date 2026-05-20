@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MindGrid Cognitive Fitness</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Daily cognitive game battery</p>
+          <h1>MindGrid</h1>
+        </div>
+        <div class="score-orb" aria-live="polite">
+          <span id="overallScore">--</span>
+          <small>Mental Fitness</small>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div class="hero-copy">
+          <h2>Six short games built from recognized cognitive assessment patterns.</h2>
+          <p>
+            This mockup adapts research-style paradigms into repeatable daily games for attention,
+            episodic memory, working memory, language, executive function, and processing speed.
+            Scores are wellness indicators only, not clinical results.
+          </p>
+        </div>
+        <div class="brain-map" aria-label="Visual map of cognitive domains">
+          <span class="node n1">Attention</span>
+          <span class="node n2">Memory</span>
+          <span class="node n3">Language</span>
+          <span class="node n4">Speed</span>
+          <span class="node n5">Executive</span>
+          <span class="node n6">Working</span>
+        </div>
+      </section>
+
+      <section class="research-strip" aria-label="Research basis">
+        <article>
+          <strong>NIH Toolbox</strong>
+          <span>Flanker, card sort, picture sequence, list sorting, pattern comparison, vocabulary and reading.</span>
+        </article>
+        <article>
+          <strong>Classic neuropsychology</strong>
+          <span>Digit span, Stroop-like inhibition, Trail Making-style switching, and rapid symbol matching.</span>
+        </article>
+        <article>
+          <strong>Scoring approach</strong>
+          <span>Accuracy, speed, and streak consistency combine into normalized domain scores.</span>
+        </article>
+      </section>
+
+      <section class="layout">
+        <aside class="battery-panel">
+          <div class="panel-head">
+            <h2>Battery</h2>
+            <button id="resetBtn" class="icon-btn" type="button" aria-label="Reset scores" title="Reset scores">↺</button>
+          </div>
+          <div id="testList" class="test-list"></div>
+        </aside>
+
+        <section class="game-panel">
+          <div class="game-head">
+            <div>
+              <p id="activeDomain" class="eyebrow">Choose a game</p>
+              <h2 id="activeTitle">Ready when you are</h2>
+            </div>
+            <div class="timer" id="timer">00</div>
+          </div>
+          <p id="gameInstructions" class="instructions">
+            Complete each game once to calculate today's overall mental fitness score.
+          </p>
+          <div id="gameStage" class="game-stage" aria-live="polite"></div>
+          <div class="game-actions">
+            <button id="startBtn" type="button">Start selected game</button>
+            <button id="skipBtn" type="button" class="secondary">Use mock result</button>
+          </div>
+        </section>
+
+        <aside class="summary-panel">
+          <h2>Domain Scores</h2>
+          <div id="domainScores" class="bars"></div>
+          <div class="score-note">
+            Overall score is the average of completed domain scores, adjusted down slightly when fewer than six games are complete.
+          </div>
+        </aside>
+      </section>
+
+      <section class="lower-grid">
+        <section>
+          <div class="section-head">
+            <h2>Leaderboard</h2>
+            <span>Mock cohort</span>
+          </div>
+          <div id="leaderboard" class="leaderboard"></div>
+        </section>
+
+        <section>
+          <div class="section-head">
+            <h2>Daily Tracker</h2>
+            <span>May 2026</span>
+          </div>
+          <div id="calendar" class="calendar"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

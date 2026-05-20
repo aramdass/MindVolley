@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Abstract neural grid">
+  <rect width="1200" height="760" fill="#edf4f5"/>
+  <g opacity=".35" stroke="#0f8b8d" stroke-width="3" fill="none">
+    <path d="M56 638C245 520 327 238 509 297c158 51 151 287 331 263 115-15 174-118 307-106"/>
+    <path d="M84 118c145 40 205 136 339 112 169-30 218-169 373-126 128 36 168 174 316 158"/>
+    <path d="M137 393c91-88 181-125 270-110 130 23 153 135 278 132 154-4 210-177 384-123"/>
+  </g>
+  <g opacity=".75">
+    <circle cx="93" cy="604" r="13" fill="#0f8b8d"/>
+    <circle cx="254" cy="492" r="9" fill="#d9a441"/>
+    <circle cx="421" cy="286" r="16" fill="#2f6fab"/>
+    <circle cx="590" cy="339" r="10" fill="#c64b38"/>
+    <circle cx="753" cy="542" r="15" fill="#2c8b57"/>
+    <circle cx="948" cy="499" r="10" fill="#865a95"/>
+    <circle cx="1088" cy="455" r="17" fill="#0f8b8d"/>
+    <circle cx="144" cy="136" r="15" fill="#c64b38"/>
+    <circle cx="345" cy="229" r="11" fill="#0f8b8d"/>
+    <circle cx="548" cy="164" r="14" fill="#2c8b57"/>
+    <circle cx="791" cy="101" r="18" fill="#d9a441"/>
+    <circle cx="973" cy="252" r="10" fill="#2f6fab"/>
+  </g>
+  <g opacity=".2" fill="#172026">
+    <circle cx="162" cy="706" r="80"/>
+    <circle cx="1044" cy="84" r="112"/>
+  </g>
+</svg>
